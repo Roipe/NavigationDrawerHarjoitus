@@ -38,7 +38,6 @@ fun ScreenC(onMenuClick: () -> Unit) {
         Box(modifier = Modifier
             .fillMaxSize()
             .padding(it)) {
-            //val screenAVm: ScreenAViewModel = viewModel()
             Text(
                 text = "This is Screen C.",
                 style = MaterialTheme.typography.headlineLarge,
